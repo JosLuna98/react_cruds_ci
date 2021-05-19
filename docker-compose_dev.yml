@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo
+    container_name: cruds_track4go_db
+    ports:
+      - 27017:27017
